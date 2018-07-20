@@ -2,7 +2,7 @@ const React = require('react');
 const ReactDOM  = require('react-dom');
 const createReactClass = require('create-react-class');
 
-export default createReactClass({
+module.exports = createReactClass({
     render: function () {
         const frameProps = this.props.frameProps || {};
         return React.createElement('iframe', frameProps, null);
