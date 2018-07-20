@@ -1,26 +1,31 @@
-# rc-iframe (beta)
+# rc-iframe
 
 ### Installation
 
-`do not install in your project yet`
+`npm install rc-iframe --save`
+
+or
+
+`yarn add rc-iframe`
 
 ### Usage
 
 ```JS
-import IFrame from 'rc-iframe'
-...
-render() {
-    
+import IFrame from 'rc-iframe';
+
+export default class WhatEver extends React.Component {
     state = {
         text: 'Hello World',
     }
     
-    return (
-        <div>
-            <IFrame frameProps={{width: 500}}>
-                <p>{ this.state.text }</p>            
-            </IFrame>        
-        </div>
-    );
+    render() {
+        return (
+            <div>
+                <IFrame frameProps={{width: 500}}>
+                    <p>{ this.state.text }</p>            
+                </IFrame>        
+            </div>
+        );
+    }
 }
 ```
