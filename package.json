@@ -1,0 +1,16 @@
+{
+  "name": "rc-iframe",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^16.x.x",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3"
+  },
+  "version": "1.0.0",
+  "description": "IFrame component for React",
+  "repository": "https://github.com/i-rocky/rc-iframe.git",
+  "author": "Rocky",
+  "license": "MIT"
+}
